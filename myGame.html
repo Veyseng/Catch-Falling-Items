@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="./assets/css/index.css">
+</head>
+<body>
+	<h1>Catch Falling Item</h1>
+	<button class="btn">Start Game</button>
+	<button class="show-modal">How to play?</button>
+	<div class="modal">
+		<button class="close-modal">&times;</button>
+		<h1 class="content">How to play our game?</h1>
+		<ul class="content">
+			<li>You need to use keyboard keys: arrow up, arrow down, arrow left and arrow right to control your board</li>
+			<li>You have 3 lives to play game</li>
+			<li>You will lost 1 life when you hit a red ball</li>
+			<li>You will gain the score when you hit non-red colored balls</li>
+			<li>Have fun and enjoy the game!</li>
+		</ul>
+		
+	</div>
+	<h3 class="high_score">High score is 0</h3>
+	<canvas id="canvas"></canvas>
+	<div class="overlay hidden"></div>
+	<script src="./assets/js/myGame.js"></script>
+
+</body>
+</html>
